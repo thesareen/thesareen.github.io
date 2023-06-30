@@ -1,0 +1,66 @@
+body{
+margin:0px;
+padding:0px;
+}
+.navbar{
+    background-color: white;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size:25px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.one:hover{
+    background-color:aquamarine;
+    height:50px;
+    color:black;
+    font-weight: bolder;
+}
+.two:hover{
+    background-color:aquamarine;
+    height:50px;
+    color:black;
+    font-weight: bolder;
+}
+.three:hover{
+    background-color:aquamarine;
+    height:50px;
+    color:black;
+    font-weight: bolder;
+}
+.four:hover{
+    background-color:aquamarine;
+    height:50px;
+    color:black;
+    font-weight: bolder;
+}
+.nav2{
+    height:50px;
+    text-align:center;
+    font-size:45px;
+}
+@keyframes animate {
+    from{background-color:white;}
+    to{background-color:#30E3CA}
+}
+
+.nav3{
+    animation-name:animate;
+    animation-duration:5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    height:50px;
+}
+.third{
+    display:flex;
+    justify-content:space-between;
+    align
+}
+#box1{
+    height:100px;
+    width:100px;
+}
+
